@@ -68,7 +68,7 @@ Apify.main(async () => {
         nl: 'https://www.indeed.nl',
         za: 'https://www.indeed.co.za',
     };
-    const countryUrl = countryDict[country.toLowerCase()] || `https://${country || 'www'}.indeed.com`;
+    const countryUrl = countryDict[country.toLowerCase()] || `https://${country || 'www'}.crypto-careers.com`;
     // COUNTER OF ITEMS TO SAVE 
     let itemsCounter = 0;
     let currentPageNumber = 1;
